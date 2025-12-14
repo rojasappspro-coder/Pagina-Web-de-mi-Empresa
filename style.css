@@ -1,0 +1,26 @@
+
+/* Reset para los tags de encabezado (simulando los estilos de los componentes de React) */
+h1 {
+    font-size: 3rem; /* text-5xl o 6xl */
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 2.25rem; /* text-4xl o 5xl */
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 1.875rem; /* text-3xl */
+    line-height: 1.3;
+}
+
+h4 {
+    font-size: 1.5rem; /* text-2xl */
+    line-height: 1.375;
+}
+
+/* Nota: Estas son aproximaciones. El H1 del Hero es más grande (text-4xl sm:text-5xl lg:text-6xl)
+   y los H2 son (text-3xl sm:text-4xl lg:text-5xl). Es mejor dejar las clases de Tailwind
+   en el HTML.
+*/
